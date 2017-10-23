@@ -1,6 +1,7 @@
 # SparseNet
 Sparsely Connected Convolutional Networks
-[Ligeng Zhu*](https://lzhu.me), [Ruizhi Deng*](www.sfu.ca/~ruizhid/)
+
+[Ligeng Zhu](https://lzhu.me), [Ruizhi Deng](www.sfu.ca/~ruizhid/) 
 
 # Current public information
 ## proposal
