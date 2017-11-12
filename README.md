@@ -8,6 +8,6 @@ Sparsely Connected Convolutional Networks
 ![](images/demo1.png)
 ![](images/demo2.png)
 
-## Train Curve
-(only trained for 150 iteration. There is a gap to the performance claimed in original work)
-![](images/train-curve.png)
+## Performance
+
+Comming soon.
