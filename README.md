@@ -6,8 +6,10 @@ Sparsely Connected Convolutional Networks
 # Current public information
 ## proposal
 ![](images/demo1.png)
-![](images/demo2.png)
 
-## Performance
+## Parameter Utilization
+![](images/two-weights.jpg)
+
+## Performance 
 
 Comming soon.
