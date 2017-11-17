@@ -8,8 +8,8 @@ Sparsely Connected Convolutional Networks
 ![](images/demo1.png)
 
 ## Parameter Utilization
-![](images/two-weights.jpg)
+![](images/cropped_two-weights-int.jpg)
 
-## Performance 
+## Performance
 
 Comming soon.
