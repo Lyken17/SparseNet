@@ -1,7 +1,7 @@
 # SparseNet
 Sparsely Connected Convolutional Networks
 
-[Ligeng Zhu](https://lzhu.me), [Ruizhi Deng](www.sfu.ca/~ruizhid/),[Zhiwei Deng](http://www.sfu.ca/~zhiweid/), [Greg Mori](http://www.cs.sfu.ca/~mori/), [Ping Tan](https://www.cs.sfu.ca/~pingtan/)
+[Ligeng Zhu](https://lzhu.me), [Ruizhi Deng](www.sfu.ca/~ruizhid/), [Zhiwei Deng](http://www.sfu.ca/~zhiweid/), [Greg Mori](http://www.cs.sfu.ca/~mori/), [Ping Tan](https://www.cs.sfu.ca/~pingtan/)
 
 # Current public information
 ## proposal
