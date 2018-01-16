@@ -7,7 +7,7 @@ Sparsely Aggregated Convolutional Networks
 SparseNet is a new baseline architecture similar to DenseNet. The key difference is, SparseNet only aggregates previous layers with exponential offset, for example, i - 1, i - 2, i - 4, i - 8, i - 16 ...
 ![](images/dense_and_sparse.png)
 
-# Why to use SparseNet?
+# Why use SparseNet?
 # Better Performance
 
 <table>
