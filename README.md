@@ -1,5 +1,5 @@
 # SparseNet
-[Sparsely Aggregated Convolutional Networks](https://arxiv.org/abs/1801.05895)
+Report for [Sparsely Aggregated Convolutional Networks](https://arxiv.org/abs/1801.05895)
 
 [Ligeng Zhu](https://lzhu.me), [Ruizhi Deng](http://www.sfu.ca/~ruizhid/), [Zhiwei Deng](http://www.sfu.ca/~zhiweid/), [Greg Mori](http://www.cs.sfu.ca/~mori/), [Ping Tan](https://www.cs.sfu.ca/~pingtan/)
 
