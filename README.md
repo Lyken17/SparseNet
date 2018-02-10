@@ -3,7 +3,17 @@ Sparsely Aggregated Convolutional Networks [[PDF](https://arxiv.org/abs/1801.058
 
 [Ligeng Zhu](https://lzhu.me), [Ruizhi Deng](http://www.sfu.ca/~ruizhid/), [Zhiwei Deng](http://www.sfu.ca/~zhiweid/), [Greg Mori](http://www.cs.sfu.ca/~mori/), [Ping Tan](https://www.cs.sfu.ca/~pingtan/)
 
-This page is for report, if you are going for code and pretrained model, please refer for [Source](src/)
+This page is for report, if you are going for code and pretrained model, refer for [source folder](src/).
+
+Please cite our work if you find it useful for you research. 
+```
+@article{zhu2018sparsely,
+  title={Sparsely Connected Convolutional Networks},
+  author={Zhu, Ligeng and Deng, Ruizhi and Deng, Zhiwei and Mori, Greg and Tan, Ping},
+  journal={arXiv preprint arXiv:1801.05895},
+  year={2018}
+}
+```
 
 # What is SparseNet?
 SparseNet is a new baseline architecture similar to DenseNet. The key difference is, SparseNet only aggregates previous layers with exponential offset, for example, i - 1, i - 2, i - 4, i - 8, i - 16 ...
