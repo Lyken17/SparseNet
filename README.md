@@ -3,8 +3,6 @@ Sparsely Aggregated Convolutional Networks [[PDF](https://arxiv.org/abs/1801.058
 
 [Ligeng Zhu](https://lzhu.me), [Ruizhi Deng](http://www.sfu.ca/~ruizhid/), [Zhiwei Deng](http://www.sfu.ca/~zhiweid/), [Greg Mori](http://www.cs.sfu.ca/~mori/), [Ping Tan](https://www.cs.sfu.ca/~pingtan/)
 
-This page is for report, if you are going for code and pretrained model, refer for [source folder](src/).
-
 Please cite our work if you find it useful for you research. 
 ```
 @article{zhu2018sparsely,
@@ -16,10 +14,13 @@ Please cite our work if you find it useful for you research.
 ```
 
 # What is SparseNet?
-SparseNet is a new baseline architecture similar to DenseNet. The key difference is, SparseNet only aggregates previous layers with exponential offset, for example, i - 1, i - 2, i - 4, i - 8, i - 16 ...
+SparseNet is a  network architecture that only aggregates previous layers with exponential offset, for example, i - 1, i - 2, i - 4, i - 8, i - 16 ... 
+
 ![](images/dense_and_sparse.png)
 
 # Why use SparseNet?
+The connectivity pattern yields state-of-the-art arruacies on small dataset CIFAR/10/100. On large scale ILSVRC 2012 (ImageNet) dataset, SparseNet achieves similar accuracy as ResNet and DenseNet, while only using much less parameters. 
+
 # Better Performance
 
 <table>
@@ -54,7 +55,13 @@ SparseNet-100-{32,64,128} | 16.72M | 17.71
 
 
 ## Efficient Parameter Utilization
-![](images/cropped_two-weights-int.jpg)
+* Parameter efficiency on CIFAR
+  ![](images/cropped_two-weights-int.jpg)
 
+* Paramter efficiency on ImageNet
+  We notice sparsenet shows comparable efficiency even compared with pruned models.
+  ![](images/imagenet_efficiency.png)
+  
+  
 # Pretrained model
-On the way.
+Refer for [source folder](src/).
