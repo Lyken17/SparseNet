@@ -64,17 +64,17 @@ If SparseNet helps your research, please cite our work :)
 @article{DBLP:journals/corr/abs-1801-05895,
   author    = {Ligeng Zhu and
                Ruizhi Deng and
+               Michael Maire and
                Zhiwei Deng and
                Greg Mori and
                Ping Tan},
-  title     = {Sparsely Connected Convolutional Networks},
+  title     = {Sparsely Aggregated Convolutional Networks},
   journal   = {CoRR},
   volume    = {abs/1801.05895},
   year      = {2018},
   url       = {http://arxiv.org/abs/1801.05895},
   archivePrefix = {arXiv},
   eprint    = {1801.05895},
-  timestamp = {Fri, 02 Feb 2018 14:20:25 +0100},
   biburl    = {https://dblp.org/rec/bib/journals/corr/abs-1801-05895},
   bibsource = {dblp computer science bibliography, https://dblp.org}
 }
