@@ -3,7 +3,7 @@ Sparsely Aggregated Convolutional Networks [[PDF](https://arxiv.org/abs/1801.058
 
 [Ligeng Zhu](https://lzhu.me), [Ruizhi Deng](http://www.sfu.ca/~ruizhid/), [Zhiwei Deng](http://www.sfu.ca/~zhiweid/), [Greg Mori](http://www.cs.sfu.ca/~mori/), [Ping Tan](https://www.cs.sfu.ca/~pingtan/)
 
-Please cite our work if you find it useful for you research. 
+Please cite our work if you find it useful for your research. 
 ```
 @article{DBLP:journals/corr/abs-1801-05895,
   author    = {Ligeng Zhu and
