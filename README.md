@@ -3,27 +3,6 @@ Sparsely Aggregated Convolutional Networks [[PDF](https://arxiv.org/abs/1801.058
 
 [Ligeng Zhu](https://lzhu.me), [Ruizhi Deng](http://www.sfu.ca/~ruizhid/), [Zhiwei Deng](http://www.sfu.ca/~zhiweid/), [Greg Mori](http://www.cs.sfu.ca/~mori/), [Ping Tan](https://www.cs.sfu.ca/~pingtan/)
 
-Please cite our work if you find it useful for your research. 
-```
-@article{DBLP:journals/corr/abs-1801-05895,
-  author    = {Ligeng Zhu and
-               Ruizhi Deng and
-               Zhiwei Deng and
-               Greg Mori and
-               Ping Tan},
-  title     = {Sparsely Connected Convolutional Networks},
-  journal   = {CoRR},
-  volume    = {abs/1801.05895},
-  year      = {2018},
-  url       = {http://arxiv.org/abs/1801.05895},
-  archivePrefix = {arXiv},
-  eprint    = {1801.05895},
-  timestamp = {Fri, 02 Feb 2018 14:20:25 +0100},
-  biburl    = {https://dblp.org/rec/bib/journals/corr/abs-1801-05895},
-  bibsource = {dblp computer science bibliography, https://dblp.org}
-}
-```
-
 # What is SparseNet?
 SparseNet is a  network architecture that only aggregates previous layers with exponential offset, for example, i - 1, i - 2, i - 4, i - 8, i - 16 ... 
 
@@ -70,9 +49,33 @@ SparseNet-100-{32,64,128} | 16.72M | 17.71
   ![](images/cropped_two-weights-int.jpg)
 
 * Paramter efficiency on ImageNet
+
   We notice sparsenet shows comparable efficiency even compared with pruned models.
   ![](images/imagenet_efficiency.png)
   
   
 # Pretrained model
 Refer for [source folder](src/).
+
+# Cite
+If SparseNet helps your research, please cite our work :) 
+
+```
+@article{DBLP:journals/corr/abs-1801-05895,
+  author    = {Ligeng Zhu and
+               Ruizhi Deng and
+               Zhiwei Deng and
+               Greg Mori and
+               Ping Tan},
+  title     = {Sparsely Connected Convolutional Networks},
+  journal   = {CoRR},
+  volume    = {abs/1801.05895},
+  year      = {2018},
+  url       = {http://arxiv.org/abs/1801.05895},
+  archivePrefix = {arXiv},
+  eprint    = {1801.05895},
+  timestamp = {Fri, 02 Feb 2018 14:20:25 +0100},
+  biburl    = {https://dblp.org/rec/bib/journals/corr/abs-1801-05895},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+```
