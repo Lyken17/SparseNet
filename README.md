@@ -5,11 +5,22 @@ Sparsely Aggregated Convolutional Networks [[PDF](https://arxiv.org/abs/1801.058
 
 Please cite our work if you find it useful for you research. 
 ```
-@article{zhu2018sparsely,
-  title={Sparsely Connected Convolutional Networks},
-  author={Zhu, Ligeng and Deng, Ruizhi and Deng, Zhiwei and Mori, Greg and Tan, Ping},
-  journal={arXiv preprint arXiv:1801.05895},
-  year={2018}
+@article{DBLP:journals/corr/abs-1801-05895,
+  author    = {Ligeng Zhu and
+               Ruizhi Deng and
+               Zhiwei Deng and
+               Greg Mori and
+               Ping Tan},
+  title     = {Sparsely Connected Convolutional Networks},
+  journal   = {CoRR},
+  volume    = {abs/1801.05895},
+  year      = {2018},
+  url       = {http://arxiv.org/abs/1801.05895},
+  archivePrefix = {arXiv},
+  eprint    = {1801.05895},
+  timestamp = {Fri, 02 Feb 2018 14:20:25 +0100},
+  biburl    = {https://dblp.org/rec/bib/journals/corr/abs-1801-05895},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
 }
 ```
 
